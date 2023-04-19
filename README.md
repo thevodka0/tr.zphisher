@@ -158,7 +158,7 @@ $ zphisher
 
 <h3 align="center"><i>:: iş akışı ::</i></h3>
 <p align="center">
-<img src=".github/misc/workflow.gif"/>
+<img src=".github/misc/workflow.jpeg"/>
 </p>
 
 ##
@@ -170,7 +170,7 @@ $ zphisher
 </p>
 
 
-### *Thanks to all contributors*:
+### *Proje Katılımcıları*:
 
 <table>
   <tr align="center">
