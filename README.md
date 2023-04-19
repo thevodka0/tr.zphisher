@@ -20,61 +20,65 @@
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhtr-tech%2Fzphisher&title=Visitors&edge_flat=false"/></a>
 </p>
 
-<p align="center"><b>A beginners friendly, Automated phishing tool with 30+ templates.</b></p>
+<p align="center"><b>Yeni başlayanlar için uygun, 30'dan fazla şablon içeren otomatik kimlik avı aracı.</b></p>
+
+##
+<h3><p align="center">Sorumluluk Reddi</p></h3>
+
+<i>Bu proje <a href="https://github.com/htr-tech/zphisher">htr-tech</a> tarafından oluşturulmuş, The Vodka tarafından Türkçeleştirilerek Türkçe optimizasyonu sağlanmıştır.</b>
+
+<h3><p align="center">Sorumluluk Reddi</p></h3>
+
+<i><b>Zphisher</b> ile ilgili herhangi bir eylem ve/veya faaliyet yalnızca sizin sorumluluğunuzdadır. Bu araç setinin kötüye kullanılması, söz konusu kişilere karşı <b>suçlu suçlamalara</b> neden olabilir. Bu araç setini yasayı çiğnemek için kötüye kullanan herhangi bir kişiye karşı herhangi bir suç duyurusunda bulunulması durumunda <b>katkıda bulunanlar sorumlu tutulmayacaktır</b>.
+
+<b>Bu araç seti, sosyal medya için potansiyel olarak zararlı veya tehlikeli olabilecek materyaller içermektedir</b>. Buna erişmeden, kullanmadan veya başka bir şekilde yanlış bir şekilde kullanmadan önce ilinizdeki/ülkenizdeki yasalara bakın.
+
+<b>Bu Araç yalnızca eğitim amaçlı yapılmıştır</b>. Burada yer alan herhangi bir şeyle yasayı ihlal etmeye çalışmayın. <b>Eğer niyetin buysa, defol git buradan</b>!
+
+Yalnızca "kimlik avının nasıl çalıştığını" gösterir. <b>Birinin sosyal medyasına yetkisiz erişim elde etmek için bilgileri kötüye kullanmamalısınız</b>. Ancak bunu riski size ait olmak üzere deneyebilirsiniz.</i>
 
 ##
 
-<h3><p align="center">Disclaimer</p></h3>
+### Özellikler
 
-<i>Any actions and or activities related to <b>Zphisher</b> is solely your responsibility. The misuse of this toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not be held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
-
-<b>This toolkit contains materials that can be potentially damaging or dangerous for social media</b>. Refer to the laws in your province/country before accessing, using,or in any other way utilizing this in a wrong way.
-
-<b>This Tool is made for educational purposes only</b>. Do not attempt to violate the law with anything contained here. <b>If this is your intention, then Get the hell out of here</b>!
-
-It only demonstrates "how phishing works". <b>You shall not misuse the information to gain unauthorized access to someones social media</b>. However you may try out this at your own risk.</i>
-
-##
-
-### Features
-
-- Latest and updated login pages.
-- Beginners friendly
-- Multiple tunneling options
-  - Localhost
-  - Cloudflared
-  - LocalXpose
-- Mask URL support 
-- Docker support
+- En son ve güncel giriş sayfaları.
+- Yeni başlayanlar dostu
+- Çoklu tünelleme seçenekleri
+  - Yerel ana bilgisayar
+  - Bulut alevlendi
+  - YerelXpose
+- Maske URL desteği
+- Liman işçisi desteği
 
 ##
 
-### Installation
+### Kurulum
 
-- Just, Clone this repository -
+- Sadece, bu depoyu klonla -
   ```
   git clone --depth=1 https://github.com/htr-tech/zphisher.git
   ```
 
-- Now go to cloned directory and run `zphisher.sh` -
+- Şimdi klonlanmış dizine gidin ve `zphisher.sh` dosyasını çalıştırın -
   ```
   $ cd zphisher
   $ bash zphisher.sh
   ```
 
-- On first launch, It'll install the dependencies and that's it. ***Zphisher*** is installed.
+- İlk başlatmada, bağımlılıkları kuracak ve hepsi bu. ***Zphisher*** kuruludur.
 
 ##
 
-### Installation (Termux)
-You can easily install zphisher in Termux by using tur-repo
+### Kurulum (Termux)
+Tur-repo kullanarak zphisher'ı Termux'a kolayca kurabilirsiniz.
 ```
 $ pkg install tur-repo
 $ pkg install zphisher
 $ zphisher
 ```
-### A Note : 
-***Termux discourages hacking*** .. So never discuss anything related to *zphisher* in any of the termux discussion groups. For more check : [wiki](https://wiki.termux.com/wiki/Hacking)
+### Not:
+***Termux, bilgisayar korsanlığını teşvik etmez*** .. Bu nedenle, termux tartışma gruplarının hiçbirinde *zphisher* ile ilgili hiçbir şeyi asla tartışmayın. Daha fazla kontrol için: [wiki]
+(https://wiki.termux.com/wiki/Hacking)
 
 ##
 
@@ -84,16 +88,16 @@ $ zphisher
 
 ##
 
-### Installation via ".deb" file
+### ".deb" dosyası üzerinden kurulum
 
-- Download `.deb` files from the [**Latest Release**](https://github.com/htr-tech/zphisher/releases/latest)
-- If you are using ***termux*** then download the `*_termux.deb`
+- [**Son Sürüm**](https://github.com/htr-tech/zphisher/releases/latest) adresinden `.deb` dosyalarını indirin
+- ***termux*** kullanıyorsanız `*_termux.deb` dosyasını indirin
 
-- Install the `.deb` file by executing
+- Çalıştırarak `.deb` dosyasını kurun
   ```
   apt install <your path to deb file>
   ```
-  Or
+  Veya
   ```
   $ dpkg -i <your path to deb file>
   $ apt install -f
@@ -101,9 +105,9 @@ $ zphisher
 
 ##
 
-### Run on Docker
+### Docker'da çalıştırın
 
-- Docker Image Mirror:
+- Docker Görüntü Aynası:
   - **DockerHub** : 
     ```
     docker pull htrtech/zphisher
@@ -113,34 +117,34 @@ $ zphisher
     docker pull ghcr.io/htr-tech/zphisher:latest
     ```
 
-- By using the wrapper script [**run-docker.sh**](https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh)
+- [**run-docker.sh**] sarmalayıcı komut dosyasını kullanarak(https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh)
 
   ```
   $ curl -LO https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh
   $ bash run-docker.sh
   ```
-- Temporary Container
+- Geçici Konteyner
 
   ```
   docker run --rm -ti htrtech/zphisher
   ```
-  - Remember to mount the `auth` directory.
+  - `auth` dizinini bağlamayı unutmayın.
 
 ##
 
 <details>
-  <summary><h3>Dependencies</h3></summary>
+  <summary><h3>Gereksinimler</h3></summary>
 
-<b>Zphisher</b> requires following programs to run properly - 
+<b>Zphisher</b> düzgün çalışması için aşağıdaki programları gerektirir -
 - `git`
 - `curl`
 - `php`
 
-> All the dependencies will be installed automatically when you run **Zphisher** for the first time.
+> **Zphisher**'ı ilk kez çalıştırdığınızda tüm bağımlılıklar otomatik olarak kurulacaktır.
 </details>
 
 <details>
-  <summary><h3>Tested on</h3></summary>
+  <summary><h3>üzerinde test edildi</h3></summary>
 
 - **Ubuntu**
 - **Debian**
@@ -152,14 +156,14 @@ $ zphisher
 
 ##
 
-<h3 align="center"><i>:: Workflow ::</i></h3>
+<h3 align="center"><i>:: iş akışı ::</i></h3>
 <p align="center">
 <img src=".github/misc/workflow.gif"/>
 </p>
 
 ##
 
-### Find Me on:
+### Beni bul:
 <p align="left">
   <a href="https://tahmidrayat.is-a.dev" target="_blank"><img src="https://img.shields.io/badge/Socials-grey?style=for-the-badge&logo=linktree"></a>
   <a href="https://github.com/htr-tech" target="_blank"><img src="https://img.shields.io/badge/Github-blue?style=for-the-badge&logo=github"></a>
