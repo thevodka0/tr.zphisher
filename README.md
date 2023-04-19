@@ -158,7 +158,7 @@ $ zphisher
 
 <h3 align="center"><i>:: iş akışı ::</i></h3>
 <p align="center">
-<img src=".github/misc/workflow.jpeg"/>
+<img src=".github/misc/workflow.png"/>
 </p>
 
 ##
