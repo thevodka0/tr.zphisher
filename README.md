@@ -56,12 +56,12 @@ Yalnızca "kimlik avının nasıl çalıştığını" gösterir. <b>Birinin sosy
 
 - Sadece, bu depoyu klonla -
   ```
-  git clone --depth=1 https://github.com/htr-tech/zphisher.git
+  git clone --depth=1 https://github.com/vo-ai/tr.zphisher/
   ```
 
 - Şimdi klonlanmış dizine gidin ve `zphisher.sh` dosyasını çalıştırın -
   ```
-  $ cd zphisher
+  $ cd tr.zphisher
   $ bash zphisher.sh
   ```
 
@@ -69,13 +69,7 @@ Yalnızca "kimlik avının nasıl çalıştığını" gösterir. <b>Birinin sosy
 
 ##
 
-### Kurulum (Termux)
-Tur-repo kullanarak zphisher'ı Termux'a kolayca kurabilirsiniz.
-```
-$ pkg install tur-repo
-$ pkg install zphisher
-$ zphisher
-```
+
 ### Not:
 ***Termux, bilgisayar korsanlığını teşvik etmez*** .. Bu nedenle, termux tartışma gruplarının hiçbirinde *zphisher* ile ilgili hiçbir şeyi asla tartışmayın. Daha fazla kontrol için: [wiki]
 (https://wiki.termux.com/wiki/Hacking)
