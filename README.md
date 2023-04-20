@@ -82,49 +82,7 @@ Yalnızca "kimlik avının nasıl çalıştığını" gösterir. <b>Birinin sosy
 
 ##
 
-### ".deb" dosyası üzerinden kurulum
 
-- [**Son Sürüm**](https://github.com/htr-tech/zphisher/releases/latest) adresinden `.deb` dosyalarını indirin
-- ***termux*** kullanıyorsanız `*_termux.deb` dosyasını indirin
-
-- Çalıştırarak `.deb` dosyasını kurun
-  ```
-  apt install <your path to deb file>
-  ```
-  Veya
-  ```
-  $ dpkg -i <your path to deb file>
-  $ apt install -f
-  ```
-
-##
-
-### Docker'da çalıştırın
-
-- Docker Görüntü Aynası:
-  - **DockerHub** : 
-    ```
-    docker pull htrtech/zphisher
-    ```
-  - **GHCR** : 
-    ```
-    docker pull ghcr.io/htr-tech/zphisher:latest
-    ```
-
-- [**run-docker.sh**] sarmalayıcı komut dosyasını kullanarak(https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh)
-
-  ```
-  $ curl -LO https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh
-  $ bash run-docker.sh
-  ```
-- Geçici Konteyner
-
-  ```
-  docker run --rm -ti htrtech/zphisher
-  ```
-  - `auth` dizinini bağlamayı unutmayın.
-
-##
 
 <details>
   <summary><h3>Gereksinimler</h3></summary>
