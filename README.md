@@ -56,7 +56,7 @@ Yalnızca "kimlik avının nasıl çalıştığını" gösterir. <b>Birinin sosy
 
 - Sadece, bu depoyu klonla -
   ```
-  git clone --depth=1 https://github.com/vo-ai/tr.zphisher/
+  git clone --depth=1 https://github.com/thevodka0/tr.zphisher/
   ```
 
 - Şimdi klonlanmış dizine gidin ve `zphisher.sh` dosyasını çalıştırın -
